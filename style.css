@@ -1,3 +1,8 @@
+*{
+  margin: 50;
+  box-sizing: border-box;
+  padding: 0;
+}
 
 .charity{
     background-color: #ffffff;
@@ -3629,3 +3634,50 @@
     transform: rotate(45deg);
   }
   
+
+  .text-wrapper-3 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-causes-service {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-causes-service li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.scroll-btn {
+    background-color: wheat;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-btn:hover {
+    background-color: #45a049;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}

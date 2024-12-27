@@ -1,20 +1,35 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-* {
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-}
-html,
-body {
-  margin: 0px;
-  height: 100%;
-}
-button:focus-visible {
-  outline: 2px solid #4a90e2 !important;
-  outline: -webkit-focus-ring-color auto 5px !important;
-}
-a {
-  text-decoration: none;
+
+@media (min-width: 1025px) {
+  .container {
+      width: 1440px; 
+  }
 }
 
-  
-  
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .container {
+      width: 90%; 
+      height: auto; 
+      min-height: auto;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .container {
+      width: 90%;
+      min-width: 350px;
+      height: auto;
+      min-height: auto;
+      padding: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .container {
+      width: 100%;
+      min-width: 100%;
+      height: auto;
+      padding: 5px;
+  }
+}
